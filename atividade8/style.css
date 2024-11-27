@@ -1,0 +1,32 @@
+
+body {
+   background-color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh;
+}
+
+.container {
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 20px;
+}
+
+label {
+   display: flex;
+   margin-top: 10px;
+}
+
+.area-form {
+   color: #fff;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 20px;
+   border-radius: 50px;
+   border: 1px solid #000;
+}

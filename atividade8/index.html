@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulacao de Formulários</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Formulário Básico</h2>
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" placeholder="Digite seu nome" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Digite seu email" />
+
+      <label for="pass">Senha: </label>
+      <input type="password" id="pass" placeholder="Digite sua senha" />
+
+      <p>Gênero:</p>
+      <label for="male">
+         <input type="radio" id="male" value="Masculino"> Masculino
+      </label>
+      <label for="female">
+         <input type="radio" id="female" value="Feminino"> Feminino
+      </label>
+
+      <label for="countries">Escolha um país</label>
+      <select name="countries" id="countries">
+        <option value="br" selected>Brasil</option>
+        <option value="us">Estados Unidos</option>
+        <option value="ca">Canadá</option>
+      </select>
+
+      <label for="text">Faca um comentário</label>
+      <textarea name="text" id="text" placeholder="Faca um comentário"></textarea>
+
+      <label for="submit">
+         <input type="submit" id="btn-submit">
+      </label>
+    </form>
+    </div>
+
+    <p class="area-form">Formulário</p>
+  </body>
+</html>
